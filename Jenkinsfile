@@ -21,7 +21,7 @@ pipeline {
                         sonarsource/sonar-scanner-cli \
                         -Dsonar.projectKey=frank-org_ecommerce-backend \
                         -Dsonar.organization=frank-org \
-                        -Dsonar.sources=.\
+                        -Dsonar.sources=. \
                         -Dsonar.host.url=https://sonarcloud.io \
                     '''
 
